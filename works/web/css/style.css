@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+#header {
+  background: #3F51B5;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 3px 3px #000;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.header-inner {
+  align-items: center;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-list li:not(:first-child) {
+  margin-left: 100px;
+}
+
+.nav_menu_li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#contents {
+  margin-top: 120px;
+}
+
+.wrap {
+  text-align: center;
+  font-weight: 500;
+}
+
+.main_title {
+  margin-top: 30px;
+}
+
+.entry-form {
+  margin: 0 auto;
+  border: 1px solid #000;
+  max-width: 1200px;
+}
+
+.container {
+  margin-top: 100px;
+}
+/*# sourceMappingURL=style.css.map */
