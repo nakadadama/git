@@ -17,10 +17,10 @@ if ($timestamp === false) {
     $timestamp = strtotime($ym . '-01');
 }
 
-// 今日の日付 フォーマット　例）2021-06-3
+// 今日の日付 フォーマット　
 $today = date('Y-m-j');
 
-// カレンダーのタイトルを作成　例）2021年6月
+// カレンダーのタイトルを作成　
 $html_title = date('Y年n月', $timestamp);
 
 // 前月・次月の年月を取得
